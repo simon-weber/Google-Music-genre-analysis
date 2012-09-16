@@ -8,4 +8,4 @@ python genres.py download
 python genres.py analyze
 ```
 
-There's a blog post on what I found about my own library [on my blog](www.simonmweber.com/2012/09/07/whats-in-a-genre.html).
+There's a blog post on what I found about my own library [on my blog](http://www.simonmweber.com/2012/09/07/whats-in-a-genre.html).
