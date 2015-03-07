@@ -3,7 +3,7 @@ import json
 import pickle
 
 try:
-    from gmusicapi.api import Api as GmApi
+    from gmusicapi import Mobileclient
 except ImportError:
     print "You need gmusicapi to work with Google Music:"
     print "    pip install gmusicapi"
@@ -41,7 +41,7 @@ def init_api():
     """Makes an instance of the api and attempts to login with it.
     Returns the authenticated api."""
 
-    api = GmApi()
+    api = Mobileclient()
 
     logged_in = False
     attempts = 0
